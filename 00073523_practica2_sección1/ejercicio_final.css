@@ -1,0 +1,27 @@
+/* Universal */
+* {
+  box-sizing: border-box;
+}
+
+/* Type or Tag */
+body {
+    font-family: sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+}
+
+h1, p {
+    text-align: center;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 15px;
+    padding: 15px;
+}
+
+
+
